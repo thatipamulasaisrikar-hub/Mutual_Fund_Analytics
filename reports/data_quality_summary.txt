@@ -1,0 +1,9 @@
+DATA QUALITY SUMMARY
+========================================
+
+Codes in fund_master : 40
+Codes in nav_history : 40
+Codes in both files  : 40
+
+Missing in nav_history : 0
+Extra in nav_history   : 0
