@@ -18,7 +18,7 @@ CREATE TABLE fact_transactions (
     amfi_code INTEGER,
     transaction_date DATE,
     transaction_type TEXT,
-    amount REAL
+    amount_inr REAL
 );
 
 CREATE TABLE fact_performance (
