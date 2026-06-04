@@ -4,7 +4,7 @@
 
 Mutual Fund Analytics is a data engineering and analytics project that collects, validates, cleans, stores, and analyzes mutual fund data using Python, SQLite, SQL, and Streamlit.
 
-The project demonstrates an end-to-end data pipeline, including data ingestion, data quality validation, data cleaning, database integration, SQL analysis, and dashboard visualization.
+The project demonstrates an end-to-end data pipeline, including data ingestion, data quality validation, data cleaning, database integration, SQL analysis, exploratory data analysis (EDA), performance analytics, and dashboard visualization.
 
 ---
 
@@ -12,6 +12,10 @@ The project demonstrates an end-to-end data pipeline, including data ingestion, 
 
 * Python
 * Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Plotly
 * SQLite
 * SQLAlchemy
 * Streamlit
@@ -30,7 +34,9 @@ Mutual_Fund_Analytics/
 │   └── db/
 │
 ├── notebooks/
-│   └── 02_data_cleaning.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_EDA_Analysis.ipynb
+│   └── 04_Performance_Analytics.ipynb
 │
 ├── sql/
 │   ├── schema.sql
@@ -63,6 +69,62 @@ Mutual_Fund_Analytics/
 * SQL-based analysis
 * Interactive Streamlit dashboard
 * Automated reporting
+* Exploratory Data Analysis (EDA)
+* NAV trend analysis
+* SIP inflow analysis
+* Investor demographic analysis
+* Geographic distribution analysis
+* Correlation analysis
+* Sharpe Ratio analysis
+* Sortino Ratio analysis
+* Alpha & Beta calculations
+* Maximum Drawdown analysis
+* Fund Scorecard generation
+* Benchmark comparison analytics
+
+---
+
+## Project Progress
+
+### Day 1 – Data Ingestion ✅
+
+* Data ingestion pipeline
+* Live NAV fetch
+* AMFI code validation
+* GitHub repository setup
+
+### Day 2 – Data Cleaning & Database Integration ✅
+
+* Data cleaning and preprocessing
+* SQLite database creation
+* Data loading scripts
+* SQL schema creation
+* Dashboard setup
+
+### Day 3 – Exploratory Data Analysis (EDA) ✅
+
+* NAV trend analysis
+* AUM growth analysis
+* SIP inflow trend analysis
+* Category inflow heatmap
+* Investor demographic analysis
+* Geographic distribution analysis
+* Folio growth analysis
+* Correlation matrix
+* Sector allocation analysis
+* 15+ visualizations created
+
+### Day 4 – Fund Performance Analytics ✅
+
+* Daily return calculations
+* CAGR calculations
+* Sharpe Ratio ranking
+* Sortino Ratio ranking
+* Alpha & Beta analysis
+* Maximum Drawdown analysis
+* Fund Scorecard generation
+* Benchmark comparison analysis
+* Tracking error calculations
 
 ---
 
@@ -79,6 +141,22 @@ Stores investor transaction details.
 ### fact_performance
 
 Stores mutual fund performance metrics.
+
+---
+
+## Analytics Outputs
+
+### Processed Data
+
+* cleaned_nav_history.csv
+* cleaned_investor_transactions.csv
+* cleaned_scheme_performance.csv
+
+### Performance Analytics
+
+* alpha_beta.csv
+* fund_scorecard.csv
+* tracking_error.csv
 
 ---
 
@@ -136,8 +214,38 @@ The Streamlit dashboard provides:
 
 ---
 
+## Exploratory Data Analysis
+
+The EDA notebook includes:
+
+* NAV trend visualization
+* SIP inflow trends
+* Category inflow heatmaps
+* Investor demographics
+* Geographic fund distribution
+* Folio growth trends
+* Correlation analysis
+* Sector allocation analysis
+
+---
+
+## Performance Analytics
+
+The performance analytics notebook includes:
+
+* Daily return calculations
+* CAGR analysis
+* Sharpe Ratio ranking
+* Sortino Ratio ranking
+* Alpha & Beta estimation
+* Maximum Drawdown analysis
+* Fund Scorecard generation
+* Benchmark comparison analysis
+
+---
+
 ## Author
 
-Sai Srikar
+**Sai Srikar**
 
 Data Engineering & Analytics Project
