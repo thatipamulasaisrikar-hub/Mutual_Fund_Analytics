@@ -126,6 +126,23 @@ Mutual_Fund_Analytics/
 * Benchmark comparison analysis
 * Tracking error calculations
 
+### Day 6 – Advanced Analytics & Risk Metrics ✅
+
+* Historical VaR (95%) and CVaR calculations
+* Rolling 90-Day Sharpe Ratio analysis
+* Investor Cohort Analysis
+* SIP Continuity Analysis
+* Fund Recommendation System
+* Sector Concentration (HHI) Analysis
+* Advanced risk insights and reporting
+
+### Additional Deliverables
+
+* 05_Advanced_Analytics.ipynb
+* var_cvar_report.csv
+* recommender.py
+* rolling_sharpe_chart.png
+
 ---
 
 ## Database Tables
