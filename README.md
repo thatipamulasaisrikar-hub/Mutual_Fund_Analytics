@@ -126,6 +126,29 @@ Mutual_Fund_Analytics/
 * Benchmark comparison analysis
 * Tracking error calculations
 
+### Day 5 – Dashboard Development ✅
+
+* Connected Power BI to processed mutual fund datasets
+* Created data model and relationships using `amfi_code`
+* Developed Industry Overview dashboard page
+* Added KPI cards for Total AUM, SIP Inflows, Folios, and Schemes
+* Built AUM trend and AMC comparison visualizations
+* Developed Fund Performance dashboard with scorecard analytics
+* Added Investor Analytics visualizations and filters
+* Created SIP & Market Trends dashboard page
+* Implemented dashboard interactivity with slicers and drill-through functionality
+* Applied dashboard formatting and visual enhancements
+* Exported dashboard deliverables
+
+### Dashboard Deliverables
+
+* bluestock_mf_dashboard.pbix
+* Dashboard.pdf
+* Page1.png
+* Page2.png
+* Page3.png
+* Page4.png
+
 ### Day 6 – Advanced Analytics & Risk Metrics ✅
 
 * Historical VaR (95%) and CVaR calculations
