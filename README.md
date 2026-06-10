@@ -10,21 +10,21 @@ Python • Pandas • NumPy • Matplotlib • Seaborn • Plotly • SQLite •
 
 ## Project Progress
 
-### Day 1 – Data Ingestion ✅
+### Day 1 – Data Ingestion 
 
 * Data ingestion pipeline
 * Live NAV data collection
 * AMFI code validation
 * GitHub repository setup
 
-### Day 2 – Data Cleaning & Database Integration ✅
+### Day 2 – Data Cleaning & Database Integration 
 
 * Data cleaning and preprocessing
 * SQLite database creation
 * SQL schema implementation
 * Dashboard setup
 
-### Day 3 – Exploratory Data Analysis (EDA) ✅
+### Day 3 – Exploratory Data Analysis (EDA) 
 
 * NAV trend analysis
 * AUM growth analysis
@@ -34,7 +34,7 @@ Python • Pandas • NumPy • Matplotlib • Seaborn • Plotly • SQLite •
 * Correlation analysis
 * 15+ visualizations
 
-### Day 4 – Fund Performance Analytics ✅
+### Day 4 – Fund Performance Analytics 
 
 * Daily return calculations
 * CAGR analysis
@@ -45,7 +45,7 @@ Python • Pandas • NumPy • Matplotlib • Seaborn • Plotly • SQLite •
 * Fund Scorecard
 * Benchmark comparison
 
-### Day 5 – Dashboard Development ✅
+### Day 5 – Dashboard Development 
 
 * Power BI dashboard creation
 * Industry Overview dashboard
@@ -54,7 +54,7 @@ Python • Pandas • NumPy • Matplotlib • Seaborn • Plotly • SQLite •
 * SIP & Market Trends dashboard
 * KPI cards, slicers, and interactive visualizations
 
-### Day 6 – Advanced Analytics & Risk Metrics 🚧 In Progress
+### Day 6 – Advanced Analytics & Risk Metrics 
 
 * VaR & CVaR analysis
 * Rolling Sharpe Ratio
