@@ -1,67 +1,144 @@
 # Mutual Fund Analytics
 
-## Project Overview
+## Overview
 
-Mutual Fund Analytics is an end-to-end Data Engineering and Analytics project developed to collect, validate, clean, store, analyze, and visualize mutual fund data. The project covers data ingestion, preprocessing, database integration, exploratory data analysis (EDA), performance analytics, advanced risk metrics, and interactive dashboard development using Python, SQL, SQLite, Streamlit, and Power BI.
+Mutual Fund Analytics is an end-to-end Data Engineering and Analytics project developed during the Bluestock Data Engineering & Analytics Internship. The project focuses on collecting, processing, analyzing, and visualizing mutual fund data to generate actionable investment insights.
 
-## Tech Stack
+The solution integrates ETL pipelines, SQLite database management, exploratory data analysis, financial performance analytics, risk modeling, investor behavior analysis, recommendation systems, and interactive Power BI dashboards.
 
-Python • Pandas • NumPy • Matplotlib • Seaborn • Plotly • SQLite • SQLAlchemy • Streamlit • Power BI • Git & GitHub
+---
 
-## Project Progress
+## Project Objectives
 
-### Day 1 – Data Ingestion 
+* Build a complete ETL pipeline for mutual fund datasets.
+* Clean, validate, and transform financial data.
+* Store processed data in SQLite.
+* Perform exploratory data analysis (EDA).
+* Evaluate fund performance using financial metrics.
+* Calculate advanced risk metrics such as VaR and CVaR.
+* Analyze investor behavior and SIP continuity.
+* Develop interactive dashboards for business intelligence.
+
+---
+
+## Technology Stack
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SQLite
+* SQL
+* Streamlit
+* Power BI
+* Git & GitHub
+
+---
+
+## Project Architecture
+
+Raw Data
+↓
+Data Validation
+↓
+Data Cleaning & Transformation
+↓
+SQLite Database
+↓
+EDA & Financial Analytics
+↓
+Risk Modeling
+↓
+Power BI Dashboard & Reports
+
+---
+
+## Key Features
+
+### Data Engineering
 
 * Data ingestion pipeline
-* Live NAV data collection
 * AMFI code validation
-* GitHub repository setup
-
-### Day 2 – Data Cleaning & Database Integration 
-
 * Data cleaning and preprocessing
-* SQLite database creation
-* SQL schema implementation
-* Dashboard setup
+* SQLite database integration
+* SQL-based analysis
 
-### Day 3 – Exploratory Data Analysis (EDA) 
+### Exploratory Data Analysis
 
 * NAV trend analysis
-* AUM growth analysis
 * SIP inflow analysis
 * Investor demographics
-* Geographic distribution analysis
+* Geographic distribution
 * Correlation analysis
-* 15+ visualizations
 
-### Day 4 – Fund Performance Analytics 
+### Performance Analytics
 
-* Daily return calculations
-* CAGR analysis
+* CAGR calculations
 * Sharpe Ratio
 * Sortino Ratio
-* Alpha & Beta analysis
+* Alpha & Beta
 * Maximum Drawdown
 * Fund Scorecard
-* Benchmark comparison
 
-### Day 5 – Dashboard Development 
+### Advanced Risk Analytics
 
-* Power BI dashboard creation
-* Industry Overview dashboard
-* Fund Performance dashboard
-* Investor Analytics dashboard
-* SIP & Market Trends dashboard
-* KPI cards, slicers, and interactive visualizations
-
-### Day 6 – Advanced Analytics & Risk Metrics 
-
-* VaR & CVaR analysis
-* Rolling Sharpe Ratio
+* Historical VaR (95%)
+* Conditional VaR (CVaR)
+* Rolling 90-Day Sharpe Ratio
 * Investor Cohort Analysis
 * SIP Continuity Analysis
 * Fund Recommendation System
-* HHI Concentration Analysis
+
+### Dashboard Analytics
+
+* Industry Overview
+* Fund Performance
+* Investor Analytics
+* SIP & Market Trends
+
+---
+
+## Project Structure
+
+```text
+Mutual_Fund_Analytics/
+│
+├── dashboard/
+│   ├── app.py
+│   ├── Mutual_Fund_Analytics_Dashboard.pbix
+│   └── Dashboard.pdf
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── db/
+│
+├── notebooks/
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_EDA_Analysis.ipynb
+│   ├── 04_Performance_Analytics.ipynb
+│   └── 05_Advanced_Analytics.ipynb
+│
+├── reports/
+│   ├── Final_Report.pdf
+│   ├── rolling_sharpe_chart.png
+│   └── data_quality_summary.txt
+│
+├── sql/
+│   ├── schema.sql
+│   └── queries.sql
+│
+├── recommender.py
+├── create_database.py
+├── load_to_sqlite.py
+├── data_ingestion.py
+├── validate_amfi_codes.py
+├── requirements.txt
+└── README.md
+```
+
+---
 
 ## Key Deliverables
 
@@ -72,28 +149,70 @@ Python • Pandas • NumPy • Matplotlib • Seaborn • Plotly • SQLite •
 * tracking_error.csv
 * var_cvar_report.csv
 
-### Dashboards
+### Dashboard Deliverables
 
-* Streamlit Dashboard
-* Power BI Dashboard (.pbix)
-* Dashboard PDF Export
-* 4 Dashboard Page Screenshots
+* Mutual_Fund_Analytics_Dashboard.pbix
+* Dashboard.pdf
 
-## Features
+### Advanced Analytics Deliverables
 
-* Data Ingestion & Validation
-* Data Cleaning & Transformation
-* SQLite Database Integration
-* SQL-Based Analysis
-* Exploratory Data Analysis (EDA)
-* Performance & Risk Analytics
-* Investor Behavior Analysis
-* Fund Recommendation System
-* Interactive Streamlit Dashboard
-* Interactive Power BI Dashboard
+* 05_Advanced_Analytics.ipynb
+* recommender.py
+* rolling_sharpe_chart.png
+
+### Final Submission
+
+* Final_Report.pdf
+* Bluestock_MF_Presentation.pptx
+
+---
+
+## How to Run
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Create Database
+
+```bash
+python create_database.py
+```
+
+### Load Data
+
+```bash
+python load_to_sqlite.py
+```
+
+### Verify Database
+
+```bash
+python check_db.py
+```
+
+### Run Dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+---
+
+## Business Impact
+
+This project demonstrates how data engineering, financial analytics, and business intelligence can be combined to transform raw mutual fund data into meaningful insights for investors and financial institutions.
+
+The developed analytics framework supports performance evaluation, risk assessment, investor behavior analysis, and investment decision-making.
+
+---
 
 ## Author
 
-**Sai Srikar**
+**Sai Srikar Thatipamula**
 
-Data Engineering & Analytics Internship Project
+Bluestock Data Engineering & Analytics Internship
+
+2026
