@@ -1,0 +1,86 @@
+# Slide 1 – Title
+
+Mutual Fund Analytics
+
+Final Capstone Project
+
+Sai Srikar Thatipamula
+
+Bluestock Data Engineering & Analytics Internship
+
+---
+
+# Slide 2 – Problem Statement & Objectives
+
+Problem Statement
+
+* Mutual fund data is spread across multiple sources.
+* Investors need data-driven insights for decision-making.
+* Manual analysis is time-consuming and inefficient.
+
+Objectives
+
+* Build an ETL pipeline.
+* Perform financial analytics.
+* Analyze investor behavior.
+* Develop interactive dashboards.
+
+---
+
+# Slide 3 – Data Sources
+
+Datasets Used
+
+* NAV History Dataset
+* Investor Transactions Dataset
+* Scheme Performance Dataset
+* Portfolio Holdings Dataset
+
+Key Information
+
+* NAV values
+* Investor transactions
+* Fund returns
+* Sector allocations
+
+---
+
+# Slide 4 – ETL Architecture
+
+ETL Workflow
+
+Raw Data
+↓
+Validation
+↓
+Cleaning & Transformation
+↓
+SQLite Database
+↓
+Analytics
+↓
+Dashboard & Reports
+
+Tools Used
+
+* Python
+* Pandas
+* SQLite
+* SQL
+
+---
+
+# Slide 5 – EDA Highlights
+
+Analysis Performed
+
+* NAV Trend Analysis
+* AUM Growth Analysis
+
+Key Insights
+
+* Consistent NAV growth observed.
+* Large AMCs dominated AUM.
+* Positive long-term market trend.
+
+
